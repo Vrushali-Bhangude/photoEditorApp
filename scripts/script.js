@@ -24,6 +24,8 @@ let blur = document.getElementById("blur");
 let opacity = document.getElementById("opacity");
 
 
+let filterContainer = document.getElementsByClassName("filter-container");
+
 
 
 //event
@@ -91,6 +93,7 @@ blur.addEventListener("change", () => {
 })
 
 
-// setTimeout(() => {
-//   loaderBody.style.display = "none";
-// },5000)
+setTimeout(() => {
+  loaderBody.style.display = "none";
+},5000)
+
